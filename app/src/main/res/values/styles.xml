@@ -1,11 +1,26 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_background</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dialogTheme">@style/AppTheme.Dialog</item>
     </style>
 
+    <style name="AppTheme.Dialog" parent="AppTheme">
+        <item name="android:windowBackground">@color/colorDialogBg</item>
+    </style>
+
+    <style name="AppTheme.EditTextTheme" parent="AppTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorDisabled</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/colorDisabled</item>
+    </style>
+
+    <!-- Overridden in v21 -->
+    <style name="AppTheme" parent="BaseTheme" />
+    <style name="AppTheme.MainActivityTheme" parent="AppTheme" />
 </resources>

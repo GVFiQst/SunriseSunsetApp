@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Коли захід сонця?</string>
+    <string name="no_gps_msg">Ця програма використовує геодані для отримання даних про схід/захід сонця в залежності від вашого місцезнаходження. Включити геодані?</string>
+    <string name="your_current_location">Поточне місцезнаходження:</string>
+    <string name="unknown">Невідомо</string>
+    <string name="gps_disabled">Геодані виключені</string>
+    <string name="no_permissions">Нема дозволів</string>
+    <string name="no_internet">Нема підключення до інтернету</string>
+    <string name="no_google">Сервіси Google Play не встановлені</string>
+    <string name="searching">Пошук…</string>
+    <string name="search">Пошук</string>
+    <string name="today">Сьогодні</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="previously_searched">Історія:</string>
+    <string name="location">Місто:</string>
+    <string name="empty">Нема записів</string>
+</resources>

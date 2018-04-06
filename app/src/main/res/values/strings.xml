@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">TeamVoyTestSunrise</string>
+    <string name="app_name">When is the sunset?</string>
+    <string name="google_maps_key" translatable="false">AIzaSyAgLh9Z0V565eGbMdX_9hLvAK2uGcHWY_Q</string>
+    <string name="google_places_key" translatable="false">AIzaSyCWzK_NIluaaDJxkuImWPbeK8upKdwjI4E</string>
+    <string name="launcher_transition_logo" translatable="false">logo_transition</string>
+
+    <string name="your_current_location">Your current location:</string>
+    <string name="unknown">Unknown</string>
+    <string name="gps_disabled">Gps is disabled</string>
+    <string name="no_permissions">No permissions</string>
+    <string name="no_internet">No internet</string>
+    <string name="no_google">No Google Play Services!</string>
+    <string name="searching">Searching…</string>
+    <string name="search">Search</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="no_gps_msg">This app uses gps to get your location and retrieve sunrise/sunset data depending on your city. Do you wish to enable the gps?</string>
+    <string name="previously_searched">Previously searched:</string>
+    <string name="location">Location:</string>
+    <string name="empty">List is empty</string>
 </resources>

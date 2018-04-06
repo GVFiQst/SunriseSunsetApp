@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="your_current_location">Текущее местоположение:</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="gps_disabled">Геоданные не включены</string>
+    <string name="no_permissions">Нет разрешений</string>
+    <string name="no_internet">Нет интернета</string>
+    <string name="no_google">Сервисы Google Play не установлены!</string>
+    <string name="searching">Поиск…</string>
+    <string name="search">Поиск</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="app_name">Когда закат?</string>
+    <string name="no_gps_msg">Это приложение использует геоданные чтобы получить ваше местоположение и получить данные о восходе / закате в зависимости от вашего города. Включить геоданные?</string>
+    <string name="previously_searched">История:</string>
+    <string name="location">Город:</string>
+    <string name="empty">Нет записей</string>
+</resources>

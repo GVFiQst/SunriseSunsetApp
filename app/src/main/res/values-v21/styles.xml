@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.MainActivityTheme" parent="AppTheme">
+        <item name="android:windowSharedElementEnterTransition">@transition/transition_logo</item>
+        <!--<item name="android:windowSharedElementExitTransition">@transition/transition_logo</item>-->
+    </style>
+
+</resources>
